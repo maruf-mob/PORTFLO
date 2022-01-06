@@ -1,0 +1,242 @@
+:root{
+    --font1:'Abril Fatface', cursive;
+    --font2:'Open Sans', sans-serif;
+    --brand-cl:#d6c6b2;
+    --light-bl:#e7f0f3; 
+    --bla:#222222;
+    --semi-bla:#444444;
+    --wht-cl:#ffffff;
+    --wh-sec:#f1f1f1; 
+    --l-white:#dddddd;
+    --gry:#666666;
+    --bl-over:rgba(0, 0, 0,0.7);  
+}
+/* =====================================
+        root css ends
+======================================== */
+.abril-reg{
+    font-family:var(--font1);
+    font-weight:400;
+}
+
+.open-reg{
+    font-family:var(--font2);
+    font-weight:400;
+}
+.open-med{
+    font-family:var(--font2);
+    font-weight:500;
+}
+.open-semi{
+    font-family:var(--font2);
+    font-weight:600;
+}
+.open-bold{
+    font-family:var(--font2);
+    font-weight:700;
+}
+
+/* =====================================
+        font-weight css ends
+======================================== */
+.fs-14{
+    font-size:14px;
+}
+.fs-16{
+    font-size:16px;
+}
+.fs-20{
+    font-size:20px;
+}
+.fs-22{
+    font-size:22px;
+}
+.fs-24{
+    font-size:24px;
+}
+.fs-32{
+    font-size:32px;
+}
+.fs-60{
+    font-size:60px;
+}
+.fs-85{
+    font-size:85px;
+}
+.fs-102{
+    font-size:102px;
+}
+
+/* =====================================
+        font-size css ends
+======================================== */
+.white{
+    color:var(--wht-cl);
+}
+.white-secondary{
+    color:var(--wh-sec);
+}
+.black{
+    color:var(--bla);
+}
+.ash{
+    color:var(--semi-bla);
+}
+.light-blue{
+    color:var(--light-bl);
+}
+.brand{
+    color:var(--brand-cl);
+}
+.light-white{
+    color:var(--l-white);
+}
+.gray{
+    color:var(--gry);
+}
+
+/* =====================================
+        color css ends
+======================================== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:var(--bla);
+}
+img{
+    vertical-align: middle;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+
+
+/* =====================================
+        common css ends
+======================================== */
+.text-up{
+    text-transform: uppercase;
+}
+.text-cap{
+    text-transform: capitalize;
+}
+
+
+
+/* =====================================
+        text transform css ends
+======================================== */
+header{
+    height:107px;
+    /* background:#666666; */
+    position:absolute;
+    inset:0;
+    z-index:1
+    
+}
+header .header-main{
+    height:107px;
+    display:flex;
+    justify-content: space-between;
+}
+header .header-main .logo{
+    height:77px;
+    width:176px;
+}
+header .header-main .logo img{
+    width:100%;
+    padding-top:30px;
+}
+header .header-main .menu{
+    height:90px;
+    width:600px;
+}
+header .header-main .menu nav ul{
+    /* height:90px; */
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content:flex-end;
+}
+header .header-main .menu nav ul li{
+    transition: all linear 0.4s;
+    display: block;
+    padding:58px 10px 10px 10px;
+}
+header .header-main .menu nav ul li:hover{
+    background:var(--brand-cl);
+}
+
+/* =====================================
+        header section css ends
+======================================== */
+#banner{
+    height:622px;
+    background:var(--light-bl);
+}
+#banner .banner-main{
+    height:622px;
+    display:flex;
+    position:relative;
+}
+#banner .banner-main .banner-image{
+    width:647px;
+    height:622px;
+    position:relative;
+}
+#banner .banner-main .banner-image img{
+    position:absolute;
+    top:0;
+    left:100px;
+    
+}
+#banner .banner-main .banner-text{
+    width:500px;
+    height:622px;
+}
+#banner .banner-main .banner-text h3{
+    padding-top:235px;
+    padding-left:145px;
+}
+#banner .banner-main .banner-text h1{
+    padding-left:6px;
+}
+#banner .banner-main .banner-text h2{
+    position:absolute;
+    right:140px;
+    bottom:146px;
+    z-index: 999;
+}
+#banner .banner-main .banner-text .btn{
+    position:absolute;
+    right:150px;
+    bottom:90px;
+     
+}
+#banner .banner-main .banner-text .btn a{
+    display: inline-block;
+    padding:0 20px;
+    line-height: 40px;
+    border:1px solid var(--brand-cl);
+    margin-right:30px;
+    transition: all linear 0.4s;
+}
+#banner .banner-main .banner-text .btn a:hover{
+    background:var(--brand-cl);
+    color:var(--bla);
+}
+
+
+
+
+/* =====================================
+        banner section css ends
+======================================== */
