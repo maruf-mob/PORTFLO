@@ -160,7 +160,6 @@ header .header-main .menu{
     width:600px;
 }
 header .header-main .menu nav ul{
-    /* height:90px; */
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -233,10 +232,166 @@ header .header-main .menu nav ul li:hover{
     background:var(--brand-cl);
     color:var(--bla);
 }
-
-
+/* =====================================
+        banner section css ends
+======================================== */
+#about{
+    height:520px;
+    margin-top:97px;
+    margin-bottom:100px;
+}
+#about .about-main{
+    height:520px;
+    display:flex;
+    justify-content: space-between;
+}
+#about .about-main .about-image{
+    width:470px;
+    height:520px;
+    position:relative;
+}
+#about .about-main .about-image img.about-one{
+    width: 100%;
+    position:absolute;
+    inset:0;
+    z-index:1;
+}
+#about .about-main .about-image img.about-person{
+    width: 100%;
+    position:absolute;
+    left:-72px;
+    top:-17px;
+    z-index:2;
+}
+#about .about-main .about-text{
+    width:670px;
+    height:520px;
+}
+#about .about-main .about-text h3{
+    padding-bottom:65px;
+}
+#about .about-main .about-text p.distance{
+    line-height:24px;
+    padding-bottom:40px;
+}
+#about .about-main .about-text p.need{
+    padding-bottom:55px;
+}
+#about .about-main .about-text .hire h4{
+    padding-bottom:32px;
+}
+#about .about-main .about-text .hire ul{
+    display:flex;
+}
+#about .about-main .about-text .hire ul li{
+    width:50px;
+    height:50px;
+    border:1px solid #444444;
+    border-radius:50%;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:20px;
+    transition:all linear 0.4s;
+}
+#about .about-main .about-text .hire ul li:hover{
+    background:var(--brand-cl);
+    border:none;
+    box-shadow: 0px 2px 8px 0px rgba(214,198,178,0.8);
+}
 
 
 /* =====================================
-        banner section css ends
+        about section css ends
+======================================== */
+#service{
+    height:600px;
+    background:linear-gradient(to right,#f5f5f5, #f9f9f9);
+    padding-bottom:60px;
+}
+#service .service-main{
+    height:442px;
+}
+#service .service-main .service-head{
+    height:36px;
+    text-align: center;
+    padding-bottom:60px;
+    padding-top:50px;
+    
+}
+#service .service-main .service-detail{
+    height:406px;
+    padding-top:50px;
+}
+
+#service .service-main .service-detail .item{
+    width:370px;
+    height:266px;
+    position:relative;
+    margin-bottom:60px;
+}
+#service .service-main .service-detail .item img.item-1{
+    width: 90px;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    
+}
+#service .service-main .service-detail .item img.item-2{
+    width:54px;
+    position:absolute;
+    top:0;
+    left:160px;
+    z-index:1;
+}
+#service .service-main .service-detail .item h4{
+    text-align: center;
+    padding-top:120px;
+    padding-bottom:25px;
+    
+}
+#service .service-main .service-detail .item p{
+    line-height:24px;
+    text-align: center;
+}
+
+.owl-theme .owl-nav {
+	margin-top: 10px;
+	position: absolute;
+	left: 486px;
+	bottom: 2px;
+}
+
+.owl-nav i {
+	width: 90px;
+	font-size: 31px;
+}
+.owl-carousel .owl-nav button.owl-prev i,.owl-carousel .owl-nav button.owl-next i{
+    color:#444444;
+}
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover{
+    background:none;
+    color:#222222;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+	width: 30px;
+	height: 30px;
+	margin: 5px 20px;
+	background: none;
+    border:1px solid #222222;
+	display: block;
+	-webkit-backface-visibility: visible;
+	transition: opacity .2s ease;
+	border-radius: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: var(--brand-cl);
+    border:none;
+}
+
+/* =====================================
+        service section css ends
 ======================================== */
