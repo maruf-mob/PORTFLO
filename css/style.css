@@ -676,3 +676,96 @@ header .header-main .menu nav ul li:hover{
 /* =====================================
         testimonial section css ends
 ======================================== */
+#price{
+    height:650px;
+    margin-bottom:100px;
+}
+#price .price-main{
+    height:650px;
+}
+
+#price .price-main .price-head{
+    height:50px;
+    text-align: center;
+}
+#price .price-main .price-list{
+    height:600px;
+    display:flex;
+    justify-content: space-between;
+    padding-top:40px;
+}
+#price .price-main .price-list .price-item{
+    width:370px;
+    height:560px;
+    background:#f1f1f1;
+    position:relative;
+}
+#price .price-main .price-list .price-item .price-head{
+    width:370px;
+    height:55px;
+    background:var(--l-white);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.4s;
+}
+#price .price-main .price-list .price-item .price-details{
+    width:370px;
+    height:505px; 
+    position:relative;
+    transition: all linear 0.4s;
+}
+#price .price-main .price-list .price-item .price-details img.center{
+    margin-left:40%;
+    margin-top:26px;
+}
+#price .price-main .price-list .price-item .price-details img.center-1{
+    margin-left:44%;
+    margin-top:-132px;  
+}
+#price .price-main .price-list .price-item .price-details h1{
+    text-align: center;
+    margin-top:-13px;
+}
+#price .price-main .price-list .price-item .price-details h1::after{
+    content:'';
+    width:230px;
+    height:1px;
+    background:rgb(102, 102, 102,0.1);
+    position:absolute;
+    left:50%;
+    top:200px;
+    transform:translateX(-50%);
+    
+}
+#price .price-main .price-list .price-item .price-details p{
+    text-align: center;
+    margin-top:23px;
+}
+#price .price-main .price-list .price-item .price-details a{
+    display:inline-block;
+    padding:0 20px;
+    line-height:42px;
+    border:1px solid var(--semi-bla);
+    margin-top:27px;
+    margin-left:27%;
+    transition: all linear 0.4s;
+}
+
+#price .price-main .price-list .price-item:hover .price-head{
+    background:#cbb8a1;
+    box-shadow: 0px 3px 1px #cbb8a1;
+}
+#price .price-main .price-list .price-item:hover .price-details{
+    background:var(--brand-cl);
+}
+#price .price-main .price-list .price-item:hover .price-details a{
+    border:none;
+    background:#cbb8a1;
+    box-shadow: 0px 3px 8px #cbb8a1;
+}
+
+/* =====================================
+        price section css ends
+======================================== */

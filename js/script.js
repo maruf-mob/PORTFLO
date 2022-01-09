@@ -36,5 +36,6 @@ $(document).ready(function(){
         prevArrow:'<i class="fas fa-long-arrow-alt-left left-arrow"></i>',
         nextArrow:'<i class="fas fa-long-arrow-alt-right next-arrow"></i>',
       });
-    
+    //wow js;
+    new WOW().init();
 });
