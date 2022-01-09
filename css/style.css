@@ -395,3 +395,144 @@ header .header-main .menu nav ul li:hover{
 /* =====================================
         service section css ends
 ======================================== */
+#portfolio{
+    height:1036px;
+    margin-top:60px;
+    margin-bottom:100px;
+}
+#portfolio .portfolio-main{
+    position:relative;
+}
+#portfolio .portfolio-main .both{
+    height:1036px;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+#portfolio .portfolio-main .both .gallery{
+    width:770px;
+    height:1036px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#portfolio .portfolio-main .both .gallery .gallery-item{
+    width:370px;
+    height:450px;
+    position:relative;
+   
+}
+#portfolio .portfolio-main .both .gallery .gallery-item:nth-child(3){
+    margin-top:-40px;
+}
+#portfolio .portfolio-main .both .gallery .gallery-item:last-of-type{
+    margin-top:-40px;
+}
+#portfolio .portfolio-main .both .gallery .gallery-item .gallery-overlay{
+    content:'';
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:rgb(214, 198, 178,0.85);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity:0;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#portfolio .portfolio-main .both .gallery .gallery-item:hover .gallery-overlay{
+    opacity:1;
+}
+#portfolio .portfolio-main .both .gallery .gallery-item .gallery-overlay .icon{
+    height:50px;
+    width:50px;
+    background:var(--semi-bla);
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:160px;
+    
+}
+#portfolio .portfolio-main .both .gallery .gallery-item .gallery-overlay .icon i{
+    font-size: 20px;
+    color:#ffffff;
+
+}
+#portfolio .portfolio-main .both .gallery .gallery-item .gallery-overlay h5{
+    padding-top:118px;
+}
+
+#portfolio .portfolio-main a.btn{
+    display: inline-block;
+    padding:0 20px;
+    line-height:42px;
+    background:var(--brand-cl);
+    position:absolute;
+    left:380px;
+    bottom:0;
+    margin-top:60px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#portfolio .portfolio-main a.btn:hover{
+    background:var(--bla);
+    color:var(--brand-cl);
+}
+
+#portfolio .portfolio-main .both .navigation{
+    width:200px;
+    height:1036px;
+}
+#portfolio .portfolio-main .both .navigation .navigation-head{
+    margin-top:-8px;
+    margin-bottom:60px;
+}
+#portfolio .portfolio-main .both .navigation ul li{
+    margin-bottom:33px;
+    cursor: pointer;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#portfolio .portfolio-main .both .navigation ul li:last-child{
+    margin-bottom:0;
+}
+#portfolio .portfolio-main .both .navigation ul li.active{
+    color:var(--brand-cl);
+    padding-left:40px;
+}
+
+.vbox-prev{
+    left:173px;
+}
+.vbox-next{
+    right:173px;
+}
+
+.vbox-close{
+    top:15px;
+    right:115px;
+}
+
+
+/* =====================================
+        portfolio section css ends
+======================================== */
