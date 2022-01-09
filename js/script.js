@@ -25,4 +25,16 @@ $(document).ready(function(){
         spinColor:'#d6c6b2',
      });
     
+    //slick;
+    $('.testimonial-slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        arrows:true,
+        prevArrow:'<i class="fas fa-long-arrow-alt-left left-arrow"></i>',
+        nextArrow:'<i class="fas fa-long-arrow-alt-right next-arrow"></i>',
+      });
+    
 });

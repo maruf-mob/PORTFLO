@@ -397,7 +397,7 @@ header .header-main .menu nav ul li:hover{
 ======================================== */
 #portfolio{
     height:1036px;
-    margin-top:60px;
+    margin-top:100px;
     margin-bottom:100px;
 }
 #portfolio .portfolio-main{
@@ -535,4 +535,144 @@ header .header-main .menu nav ul li:hover{
 
 /* =====================================
         portfolio section css ends
+======================================== */
+#testimonial{
+    height:511px;
+    background:url(../images/testimonial-bg.jpg) no-repeat center / cover;
+    margin-bottom:95px;
+    position:relative;
+    z-index:1; 
+}
+#testimonial::after{
+    content:'';
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+    position:absolute;
+    top:0;
+    left:0; 
+    z-index:-1;   
+}
+#testimonial .testimonial-main{
+    height:511px;
+}
+#testimonial .testimonial-main .testimonial-head{
+    height:135px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#testimonial .testimonial-main .testimonial-slider{
+    width:100%;
+    height:320px;
+}
+
+#testimonial .testimonial-main .item{
+    width:570px;
+    height:227px;
+    display:flex;
+    justify-content: space-between;
+}
+#testimonial .testimonial-main .testimonial-slider .item .test-image{
+    width:171px;
+    height:227px;
+    position:relative;
+    float:left;
+}
+#testimonial .testimonial-main .testimonial-slider .item .test-image img.check{
+    position:absolute;
+    top:36px;
+    left:0;
+    z-index:1;
+}
+#testimonial .testimonial-main .testimonial-slider .item .test-image img.check-2{
+    position:absolute;
+    top:8px;
+    left:12px;
+    z-index:2;
+}
+
+#testimonial .testimonial-main .testimonial-slider .item .testi-text{
+    width:370px;
+    height:227px;
+    float:left;
+    margin-left:30px;
+}
+#testimonial .testimonial-main .testimonial-slider .item .testi-text h3{
+    padding-top:26px;
+}
+#testimonial .testimonial-main .testimonial-slider .item .testi-text h4{
+    padding-bottom:14px;
+}
+#testimonial .testimonial-main .testimonial-slider .item .testi-text ul{
+    display:flex;
+}
+#testimonial .testimonial-main .testimonial-slider .item .testi-text ul li{
+    margin-right:5px;
+}
+#testimonial .testimonial-main .testimonial-slider .item .testi-text ul li:last-child{
+    margin-right:0;
+}
+#testimonial .testimonial-main .testimonial-slider .item .testi-text ul li i{
+    color:#ffffff;
+}
+#testimonial .testimonial-main .testimonial-slider .item .testi-text p{
+    line-height:24px;
+    padding-top:26px;
+}
+#testimonial .testimonial-main .testimonial-slider .slick-slide{
+    padding:0 6px;
+}
+#testimonial .testimonial-main .testimonial-slider .slick-dots{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+#testimonial .testimonial-main .testimonial-slider .slick-dots li button{
+    font-size:0;
+    border:none;
+    outline:none; 
+} 
+#testimonial .testimonial-main .testimonial-slider .slick-dots li{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    transition:all linear 0.4s;
+    border:1px solid #ffffff;
+}
+#testimonial .testimonial-main .testimonial-slider .slick-dots li.slick-active{
+    background: var(--brand-cl);
+    border:none;
+}
+#testimonial .testimonial-main .testimonial-slider .left-arrow{
+    width:43px;
+    height:43px;
+    color:#ffffff;
+    font-size:31px;
+    line-height:43px;
+    text-align:center;
+    cursor:pointer;
+    position:absolute;
+    left:43.5%;
+    bottom:-6px;
+    z-index:1;
+}
+#testimonial .testimonial-main .testimonial-slider .next-arrow{
+    width:43px;
+    height:43px;
+    color:#ffffff;
+    font-size:31px;
+    line-height:43px;
+    text-align:center;
+    cursor:pointer;
+    position:absolute;
+    right:43.5%;
+    bottom:-6px;
+    z-index:1;
+    
+}
+
+/* =====================================
+        testimonial section css ends
 ======================================== */
