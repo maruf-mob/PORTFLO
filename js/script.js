@@ -38,4 +38,8 @@ $(document).ready(function(){
       });
     //wow js;
     new WOW().init();
+    
+     // counter-up;
+     
+     $('.counter').counterUp(); 
 });
