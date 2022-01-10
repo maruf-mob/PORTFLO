@@ -832,7 +832,7 @@ header .header-main .menu nav ul li:hover{
     height:313px;
     background:var(--l-white);
     padding-top:26px;
-    trasition:all linear 0.4s;
+    transition:all linear 0.4s;
 }
 #blog .blog-main .blog-detail .blog-left .left-top .blog-text:hover{
     background:var(--brand-cl);
@@ -937,7 +937,7 @@ header .header-main .menu nav ul li:hover{
     height:313px;
     background:var(--l-white);
     padding-top:26px;
-    trasition:all linear 0.4s;
+    transition:all linear 0.4s;
 }
 #blog .blog-main .blog-detail .blog-left .left-bottom .blog-text:hover{
     background:var(--brand-cl);
@@ -1017,6 +1017,11 @@ header .header-main .menu nav ul li:hover{
     position:absolute;
     bottom:0;
     right:16px;
+    transition: all linear 0.4s;
+}
+#blog .blog-main .blog-detail .blog-left a:hover{
+    background:var(--bla);
+    color:var(--brand-cl);
 }
 #blog .blog-main .blog-detail .blog-right{
     width:470px;
@@ -1050,6 +1055,7 @@ header .header-main .menu nav ul li:hover{
     width:470px;
     height:317px;
     background:var(--l-white);
+    transition: all linear 0.4s;
 }
 #blog .blog-main .blog-detail .blog-right .blog-text:hover{
     background:var(--brand-cl);
