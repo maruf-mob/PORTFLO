@@ -45,6 +45,9 @@
 .fs-16{
     font-size:16px;
 }
+.fs-18{
+    font-size:18px;
+}
 .fs-20{
     font-size:20px;
 }
@@ -1118,6 +1121,7 @@ header .header-main .menu nav ul li:hover{
     display:flex;
     justify-content: space-between;
 }
+
 #blog .blog-main .blog-detail .blog-right .blog-text .read .read-right{
     width:76px;
     height:30px;
@@ -1130,4 +1134,143 @@ header .header-main .menu nav ul li:hover{
 
 /* =====================================
         blog section css ends
+======================================== */
+#footer{
+    height:330px;
+    margin-top:100px;
+    margin-bottom:30px;
+}
+#footer .footer-main {
+    height:330px;
+    display:flex;
+    justify-content: space-between;
+}
+#footer .footer-main .address{
+    width:318px;
+    height:330px;
+}
+
+#footer .footer-main .address .item{
+    width:318px;
+    height:22px;
+    margin-bottom:15px;   
+}
+#footer .footer-main .address .one{
+    margin-top:32px;
+}
+#footer .footer-main .address .item ul{
+    display:flex;
+    justify-content: space-between;
+}
+#footer .footer-main .address .item ul li.ready{
+    padding-right:25px;
+}
+#footer .footer-main .address .item ul li.ready-2{
+    padding-right:64px;
+}
+#footer .footer-main .address .item ul li.four{
+    margin-top:5px;
+}
+#footer .footer-main .address .footer-social{
+    width:318px;
+    height:97px;
+    margin-top:50px;
+}
+#footer .footer-main .address .footer-social ul.line{
+    display:flex;
+    padding-top:30px;
+}
+#footer .footer-main .address .footer-social ul.line li{
+    margin-right:18px;
+    height:40px;
+    width:40px;
+    border:none;
+    transition:all linear 0.4s;
+}
+#footer .footer-main .address .footer-social ul.line li a{
+    display:block;
+    text-align: center;
+}
+#footer .footer-main .address .footer-social ul.line li a i{
+    line-height:40px;
+}
+#footer .footer-main .address .footer-social ul.line li:last-child{
+    margin-right:0;
+}
+#footer .footer-main .address .footer-social ul.line li:hover{
+    background:var(--brand-cl);
+    border-radius:50%;
+    
+}
+#footer .footer-main .address .footer-social ul.line li:hover i{
+    color:var(--wht-cl);
+}
+#footer .footer-main .form{
+    width:770px;
+    height:330px;
+    background:var(--l-white);
+    position:relative;
+}
+#footer .footer-main .form h3{
+    padding-left:30px;
+    padding-top:45px;
+}
+#footer .footer-main .form form{
+    margin-left:30px;
+    margin-top:34px;
+            
+}
+#footer .footer-main .form form input{
+    height:30px;
+    width:350px;
+    margin-right:10px;
+    border:1px solid var(--brand-cl);
+    outline:none;
+    padding-left:12px;
+}
+
+#footer .footer-main .form form textarea{
+    width:712px;
+    height:150px;
+    border:1px solid var(--brand-cl);
+    outline:none;
+    padding-top:20px;
+    padding-left:12px;
+    margin-top:10px;
+    
+}
+#footer .footer-main .form .know{
+    position:absolute;
+    right:29px;
+    bottom:9px;
+}
+#footer .footer-main .form .know img.change{
+    position:absolute;
+    right:0;
+    bottom:26px;
+    z-index:1;
+}
+#footer .footer-main .form .know i{
+    position: absolute;
+    right:12px;
+    bottom:38px;
+    z-index:2;
+    cursor: pointer;
+}
+
+/* =====================================
+        footer section css ends
+======================================== */
+#copyright{
+    height:54px;
+    background:var(--l-white);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* =====================================
+        copyright section css ends
 ======================================== */
