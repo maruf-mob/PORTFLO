@@ -118,7 +118,9 @@ ul,ol{
     margin:0 auto;
 }
 
-
+.mr-18{
+    margin-right:18px;
+}
 /* =====================================
         common css ends
 ======================================== */
@@ -677,7 +679,7 @@ header .header-main .menu nav ul li:hover{
         testimonial section css ends
 ======================================== */
 #price{
-    height:650px;
+    height:670px;
     margin-bottom:100px;
 }
 #price .price-main{
@@ -768,4 +770,358 @@ header .header-main .menu nav ul li:hover{
 
 /* =====================================
         price section css ends
+======================================== */
+#blog{
+    height:950px;
+    background:var(--wh-sec);
+}
+#blog .blog-main{
+    height:848px;
+    padding-top:60px;
+    
+}
+#blog .blog-main .blog-head{
+    height:40px;
+    padding-bottom:80px;
+}
+#blog .blog-main .blog-head h3{
+    text-align:center;
+    /* margin-bottom:60px; */
+}
+#blog .blog-main .blog-detail{
+    height:764px;
+    display:flex;
+    justify-content: space-between;
+}
+#blog .blog-main .blog-detail .blog-left{
+    width:670px;
+    height:764px;
+    position:relative;
+}
+#blog .blog-main .blog-detail .blog-left .left-top{
+    width:670px;
+    height:313px;
+    margin-bottom:30px;
+    display:flex;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-image{
+    width:270px;
+    height:313px;
+    position:relative;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-image .overlay{
+    width:100%;
+    height:100%;
+    background: rgba(214, 198, 178,0.7);
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:0;
+    transition:all linear 0.4s;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-image:hover .overlay{
+    opacity:1;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-image .overlay h3{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text{
+    width:400px;
+    height:313px;
+    background:var(--l-white);
+    padding-top:26px;
+    trasition:all linear 0.4s;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text:hover{
+    background:var(--brand-cl);
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .like{
+    width:400px;
+    height:20px;
+    display:flex;
+    justify-content: space-between;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .like .like-left{
+    width:170px;
+    height:20px;
+    position:relative;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .like .like-left i{
+    padding-left:30px;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .like .like-left p{
+    position:absolute;
+    left:52px;
+    top:0;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .like .like-right{
+    width:156px;
+    height:20px;
+    padding-right:30px;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .like .like-right ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .deed{
+    width:400px;
+    height:164px;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .deed h2{
+    padding: 0 30px;
+    margin-top:34px;
+    margin-bottom: 20px;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .deed p{
+    padding:0 24px;
+    line-height: 24px;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .read{
+    width:400px;
+    height:30px;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-between;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .read .read-left{
+    width:150px;
+    height:30px;
+    padding-left:30px;
+    
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .read .read-left ul{
+    display:flex;
+    justify-content: space-between;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .read .read-right{
+    width:76px;
+    height:30px;
+    margin-right:30px;
+}
+#blog .blog-main .blog-detail .blog-left .left-top .blog-text .read .read-right ul{
+    display:flex;
+    justify-content: space-between;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom{
+    width:670px;
+    height:313px;
+    display:flex;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-image{
+    width:270px;
+    height:313px;
+    position:relative;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-image .overlay{
+    width:100%;
+    height:100%;
+    background: rgba(214, 198, 178,0.7);
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:0;
+    transition:all linear 0.4s;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-image:hover .overlay{
+    opacity:1;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-image .overlay h3{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text{
+    width:400px;
+    height:313px;
+    background:var(--l-white);
+    padding-top:26px;
+    trasition:all linear 0.4s;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text:hover{
+    background:var(--brand-cl);
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .like{
+    width:400px;
+    height:20px;
+    display:flex;
+    justify-content: space-between;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .like .like-left{
+    width:170px;
+    height:20px;
+    position:relative;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .like .like-left i{
+    padding-left:30px;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .like .like-left p{
+    position:absolute;
+    left:52px;
+    top:0;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .like .like-right{
+    width:156px;
+    height:20px;
+    padding-right:30px;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .like .like-right ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .deed{
+    width:400px;
+    height:164px;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .deed h2{
+    padding: 0 30px;
+    margin-top:34px;
+    margin-bottom: 20px;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .deed p{
+    padding:0 24px;
+    line-height: 24px;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .read{
+    width:400px;
+    height:30px;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-between;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .read .read-left{
+    width:150px;
+    height:30px;
+    padding-left:30px;
+    
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .read .read-left ul{
+    display:flex;
+    justify-content: space-between;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .read .read-right{
+    width:76px;
+    height:30px;
+    margin-right:30px;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .read .read-right ul{
+    display:flex;
+    justify-content: space-between;
+}
+#blog .blog-main .blog-detail .blog-left a{
+    display:inline-block;
+    padding:0 20px;
+    line-height:42px;
+    background:var(--brand-cl);
+    position:absolute;
+    bottom:0;
+    right:16px;
+}
+#blog .blog-main .blog-detail .blog-right{
+    width:470px;
+    height:764px;
+    
+}
+#blog .blog-main .blog-detail .blog-right .blog-image{
+    width:470px;
+    height:340px;
+    position:relative;
+}
+#blog .blog-main .blog-detail .blog-right .blog-image .overlay{
+    width:100%;
+    height:100%;
+    background: rgba(214, 198, 178,0.7);
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:0;
+    transition:all linear 0.4s;
+}
+#blog .blog-main .blog-detail .blog-right .blog-image:hover .overlay{
+    opacity:1;
+}
+#blog .blog-main .blog-detail .blog-right  .blog-image .overlay h3{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text{
+    width:470px;
+    height:317px;
+    background:var(--l-white);
+}
+#blog .blog-main .blog-detail .blog-right .blog-text:hover{
+    background:var(--brand-cl);
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .like{
+    width:400px;
+    height:20px;
+    display:flex;
+    justify-content: space-between;
+    padding-top:30px;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .like .like-left{
+    width:170px;
+    height:20px;
+    position:relative;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .like .like-left i{
+    padding-left:30px;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .like .like-left p{
+    position:absolute;
+    left:52px;
+    top:0;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .like .like-right{
+    height:20px;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .like .like-right ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#blog .blog-main .blog-detail .blog-left .left-bottom .blog-text .deed{
+    width:400px;
+    height:164px;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .deed h2{
+    text-align:center;
+    margin-top:34px;
+    margin-bottom: 20px;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .deed p{
+    text-align: center;
+    padding:0 30px;
+    line-height: 24px;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .read{
+    width:400px;
+    height:30px;
+    margin-top:40px;
+    display:flex;
+    justify-content: space-between;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .read .read-left{
+    width:150px;
+    height:30px;
+    padding-left:30px;
+    
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .read .read-left ul{
+    display:flex;
+    justify-content: space-between;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .read .read-right{
+    width:76px;
+    height:30px;
+    margin-right:30px;
+}
+#blog .blog-main .blog-detail .blog-right .blog-text .read .read-right ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* =====================================
+        blog section css ends
 ======================================== */
